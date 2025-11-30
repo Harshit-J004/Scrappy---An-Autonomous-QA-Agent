@@ -11,14 +11,14 @@ An intelligent, autonomous QA agent capable of constructing a "testing brain" fr
 ## 💎 UI Showcase
 
 ### Phase 01: Knowledge Base
-![Knowledge Base](<img width="1024" height="471" alt="image" src="https://github.com/user-attachments/assets/27d4fc2a-0af1-445f-8f89-6d57db72d23a" />_)
+[Knowledge Base](<img width="1024" height="471" alt="image" src="https://github.com/user-attachments/assets/27d4fc2a-0af1-445f-8f89-6d57db72d23a" />_)
 
 
 ### Phase 02: Test Case Generation
-![Test Cases](<img width="1024" height="445" alt="image" src="https://github.com/user-attachments/assets/26777750-a786-42d0-9c78-5293cf637b42" />_)
+[Test Cases](<img width="1024" height="445" alt="image" src="https://github.com/user-attachments/assets/26777750-a786-42d0-9c78-5293cf637b42" />_)
 
 ### Phase 03: Script Generation
-![Scripts](<img width="1024" height="479" alt="image" src="https://github.com/user-attachments/assets/f330b144-b0de-4811-88c5-dd213622e894" />_)
+[Scripts](<img width="1024" height="479" alt="image" src="https://github.com/user-attachments/assets/f330b144-b0de-4811-88c5-dd213622e894" />_)
 
 
 ## Setup
