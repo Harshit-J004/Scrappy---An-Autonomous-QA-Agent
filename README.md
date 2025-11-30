@@ -8,6 +8,17 @@ An intelligent, autonomous QA agent capable of constructing a "testing brain" fr
 - **Selenium Script Generation**: Converts test cases into runnable Python Selenium scripts using real HTML selectors.
 - **Modern UI**: Built with Streamlit for a clean, easy-to-use interface.
 
+## 💎 UI Showcase
+
+### Phase 01: Knowledge Base
+![Knowledge Base](docs/images/knowledge_base.png)
+
+### Phase 02: Test Case Generation
+![Test Cases](docs/images/test_cases.png)
+
+### Phase 03: Script Generation
+![Scripts](docs/images/scripts.png)
+
 ## Setup
 
 1. **Prerequisites**:
