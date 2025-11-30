@@ -1,0 +1,38 @@
+{
+  "endpoints": [
+    {
+      "method": "POST",
+      "path": "/apply_coupon",
+      "description": "Validates and applies a discount coupon.",
+      "request_body": {
+        "code": "string"
+      },
+      "responses": {
+        "200": { "success": true, "discount_percent": 15, "message": "Discount applied" },
+        "400": { "success": false, "message": "Invalid code" }
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/submit_order",
+      "description": "Processes the final order.",
+      "request_body": {
+        "user": {
+          "name": "string",
+          "email": "string",
+          "address": "string"
+        },
+        "cart": {
+          "items": "array",
+          "total": "number"
+        },
+        "payment_method": "string",
+        "shipping_method": "string"
+      },
+      "responses": {
+        "200": { "success": true, "order_id": "12345" },
+        "422": { "success": false, "message": "Validation error" }
+      }
+    }
+  ]
+}

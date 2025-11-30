@@ -1,0 +1,23 @@
+# UI/UX Guidelines
+
+## Form Validation
+- All required fields must be marked with an asterisk (*) or implied by context.
+- **Error Messages**:
+    - Must be displayed in **red** text (#FF0000).
+    - Should appear immediately below the invalid field.
+    - Examples: "Name is required", "Invalid email address".
+- **Success Messages**:
+    - Must be displayed in **green** text.
+    - Example: "Discount applied successfully".
+
+## Buttons
+- **Primary Action (Pay Now)**:
+    - Background color: Green (#28a745).
+    - Text color: White.
+    - Hover state: Darker green (#218838).
+- **Secondary Action (Apply Discount)**:
+    - Should be distinct but less prominent than Pay Now.
+
+## Layout
+- The checkout process should be a single page.
+- Sections (Cart, Discount, Shipping, Payment) should be clearly separated by borders or spacing.
