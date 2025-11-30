@@ -48,7 +48,7 @@ An intelligent, autonomous QA agent capable of constructing a "testing brain" fr
 - **Backend**: FastAPI
 - **Frontend**: Streamlit
 - **RAG**: SentenceTransformers (`all-MiniLM-L6-v2`) + FAISS
-- **LLM**: Gemini 2.5 Flash (via `google-generativeai`)
+- **LLM**: Gemini 2.0 Flash (via `google-generativeai`)
 
 ## Project Structure
 ```
