@@ -1,5 +1,7 @@
 # Autonomous QA Agent
 
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://scrappy-frontend.onrender.com/)
+
 An intelligent, autonomous QA agent capable of constructing a "testing brain" from project documentation and generating grounded test cases and Selenium scripts.
 
 ## Features
