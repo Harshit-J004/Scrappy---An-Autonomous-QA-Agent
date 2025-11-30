@@ -4,7 +4,7 @@ An intelligent, autonomous QA agent capable of constructing a "testing brain" fr
 
 ## Features
 - **Knowledge Base Ingestion**: Parses PDF, Markdown, JSON, and HTML to build a RAG-based knowledge base.
-- **Test Case Generation**: Uses Gemini 2.5 Flash to generate structured test cases grounded in your docs.
+- **Test Case Generation**: Uses Gemini 2.0 Flash to generate structured test cases grounded in your docs.
 - **Selenium Script Generation**: Converts test cases into runnable Python Selenium scripts using real HTML selectors.
 - **Modern UI**: Built with Streamlit for a clean, easy-to-use interface.
 
