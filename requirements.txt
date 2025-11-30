@@ -1,8 +1,7 @@
 fastapi
 uvicorn
 streamlit
-sentence-transformers>=3.0.0
-huggingface-hub>=0.23.0
+
 faiss-cpu
 google-generativeai
 beautifulsoup4
@@ -12,3 +11,4 @@ python-multipart
 selenium
 webdriver-manager
 numpy
+sentence-transformers
