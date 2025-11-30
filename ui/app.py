@@ -9,8 +9,8 @@ import requests
 import json
 import os
 
-# Configuration
-API_URL = "http://localhost:8000"
+# Configuration - Use environment variable for deployed backend URL
+API_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 # -----------------------------------------------------------------------------
 # PAGE CONFIGURATION

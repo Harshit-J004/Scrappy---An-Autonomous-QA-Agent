@@ -1,0 +1,31 @@
+services:
+  # Backend API Service
+  - type: web
+    name: scrappy-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.11.0
+
+  # Frontend Streamlit Service  
+  - type: web
+    name: scrappy-frontend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run ui/app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: BACKEND_URL
+        fromService:
+          type: web
+          name: scrappy-backend
+          envVarKey: RENDER_EXTERNAL_URL
+      - key: PYTHON_VERSION
+        value: 3.11.0
